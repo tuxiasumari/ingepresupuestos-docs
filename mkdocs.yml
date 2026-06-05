@@ -1,0 +1,108 @@
+site_name: Manual de IngePresupuestos
+site_url: https://docs.ingepresupuestos.com/
+site_description: Manual de usuario de IngePresupuestos — software de presupuestos de obra.
+site_author: Ing. Marco Sumari
+copyright: © 2026 Ing. Marco Sumari · IngePresupuestos
+
+theme:
+  name: material
+  language: es
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+  font:
+    text: Inter
+    code: Roboto Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo oscuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo claro
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+extra_css:
+  - stylesheets/marca.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://ingepresupuestos.com
+      name: Sitio web
+    - icon: fontawesome/brands/whatsapp
+      link: https://wa.me/51998839090
+      name: Soporte por WhatsApp
+
+nav:
+  - Inicio: index.md
+  - Primeros pasos:
+      - Instalación: primeros-pasos/instalacion.md
+      - El panel principal: primeros-pasos/panel-principal.md
+      - Tu primer proyecto: primeros-pasos/primer-proyecto.md
+  - Importar desde otros programas:
+      - Resumen: importar/index.md
+      - PowerCost: importar/powercost.md
+      - S10: importar/s10.md
+      - Delphin Express: importar/delphin.md
+      - Excel, IFC y .db: importar/excel-otros.md
+  - Elaborar el presupuesto:
+      - Resumen: elaborar/index.md
+      - Estados del proyecto: elaborar/estados.md
+      - Partidas y subpresupuestos: elaborar/partidas.md
+      - Análisis de Costos Unitarios: elaborar/acu.md
+      - Insumos: elaborar/insumos.md
+      - Metrados: elaborar/metrados.md
+      - Especificaciones técnicas: elaborar/especificaciones.md
+      - Memoria descriptiva: elaborar/memoria.md
+      - Ubicación y mapa: elaborar/mapa.md
+      - Pie de presupuesto: elaborar/pie.md
+  - Cronograma de obra:
+      - Resumen: cronograma/index.md
+      - Diagrama de Gantt: cronograma/gantt.md
+      - Cronograma valorizado: cronograma/valorizado.md
+      - Adquisición de insumos: cronograma/adquisiciones.md
+      - Curva S: cronograma/curva-s.md
+      - Exportar a MS Project: cronograma/ms-project.md
+  - Fórmula polinómica: formula-polinomica.md
+  - Reportes:
+      - Centro de Reportes: reportes/index.md
+      - Tipos de reporte: reportes/tipos.md
+      - Exportar a Excel, Word y más: reportes/exportar.md
+  - Tuxia (Inteligencia Artificial): tuxia.md
+  - Licencias y precios: licencias.md
+  - Respaldos y tus datos: respaldos.md
+  - Preguntas frecuentes: faq.md

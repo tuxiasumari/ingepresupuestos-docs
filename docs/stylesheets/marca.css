@@ -1,0 +1,38 @@
+/* Paleta de marca IngePresupuestos sobre Material for MkDocs */
+:root {
+  --md-primary-fg-color:        #F37329;
+  --md-primary-fg-color--light: #F58A4B;
+  --md-primary-fg-color--dark:  #D85F1B;
+  --md-accent-fg-color:         #D85F1B;
+  --md-primary-bg-color:        #ffffff;
+  --md-primary-bg-color--light: #ffffffb3;
+}
+
+/* Modo oscuro: mantener el naranja como acento, fondo slate */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:  #F37329;
+  --md-accent-fg-color:   #F58A4B;
+  --md-hue: 215;
+}
+
+/* Enlaces del contenido en arándano oscuro (consistente con la app) */
+.md-typeset a {
+  color: #0D52BF;
+}
+.md-typeset a:hover {
+  color: #D85F1B;
+}
+
+/* Títulos un poco más marcados */
+.md-typeset h1,
+.md-typeset h2 {
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+/* Capturas con borde y sombra suave */
+.md-typeset img {
+  border-radius: 8px;
+  box-shadow: 0 4px 18px rgba(15, 23, 32, 0.10);
+  border: 1px solid #e2e8f0;
+}
