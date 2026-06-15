@@ -30,6 +30,13 @@ $$
 
 Esto te permite sustentar, por ejemplo, el sueldo de un residente al 100% de participación durante todo el plazo, o un equipo al 50%.
 
+Cada rubro puede llevarse de dos formas, con el selector **Con detalle / Monto manual**:
+
+- **Con detalle** — la tabla línea por línea de arriba.
+- **Monto manual** — un único importe que escribes directamente.
+
+En ambos casos, el **total del rubro** se muestra arriba, junto al selector, para verlo sin bajar al pie.
+
 ## Plantillas precargadas
 
 Para no empezar de cero, IngePresupuestos trae **plantillas** de gastos generales, supervisión, expediente y liquidación (basadas en estructuras tipo CAPECO). Úsalas con el botón **Cargar plantilla** y ajusta los montos a tu proyecto.

@@ -29,6 +29,19 @@ Por eso, si cambias el rendimiento, las cantidades de mano de obra y equipo se a
 
 Algunos insumos se expresan como **porcentaje de la mano de obra** (por ejemplo, *Herramientas manuales = 5% MO*). Se agregan con unidad **`%MO`** (o `%MAT`) y su parcial se calcula como ese porcentaje del subtotal correspondiente. IngePresupuestos los maneja correctamente en el ACU, los insumos y los reportes.
 
+## Guardar una partida en tu biblioteca
+
+Puedes guardar el ACU de una partida en tu **biblioteca** para reutilizarlo en otros proyectos, con el botón **Guardar**.
+
+Si ya existe una partida con el mismo nombre, IngePresupuestos te pregunta qué hacer:
+
+- **Actualizar la existente** — reemplaza ese análisis con el actual.
+- **Guardar como copia nueva** — la guarda en tu grupo **«Mis partidas»** sin tocar la original.
+- **Cancelar.**
+
+!!! note "Protección del catálogo base"
+    Las partidas del catálogo que viene con IngePresupuestos (grupos **INGEPRESUPUESTOS**, **LLAMKASUN** y **CAPECO**) están protegidas: si guardas una con el mismo nombre, se sugiere por defecto **guardar como copia nueva**, para no alterar el catálogo original.
+
 ## Asistente para el ACU
 
 Junto al panel hay un **chat con Tuxia**, el asistente de IA, que conoce el contexto de la partida. Puedes pedirle que sugiera el análisis, detecte incoherencias o proponga rendimientos. Ver **[Tuxia](../tuxia.md)**.

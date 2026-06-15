@@ -38,3 +38,6 @@ Para **mover un proyecto entre computadoras** o compartirlo con un colega que ta
     3. Elige el proyecto a importar y confirma.
 
 La exportación `.db` conserva **todo**: partidas, ACU, insumos, metrados, cronograma, fórmula polinómica y pie de presupuesto.
+
+!!! tip "Atajo: abrir un `.db` directamente"
+    Con un proyecto abierto, también puedes ir a **Archivo → Abrir → Desde archivo (`.db`)**: eliges el archivo, IngePresupuestos lo agrega al programa y lo abre en una pestaña. Si el `.db` contiene varios proyectos, te deja elegir cuál.
