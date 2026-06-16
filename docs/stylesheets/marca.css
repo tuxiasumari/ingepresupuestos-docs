@@ -36,3 +36,27 @@
   box-shadow: 0 4px 18px rgba(15, 23, 32, 0.10);
   border: 1px solid #e2e8f0;
 }
+
+/* Barra superior: volver al sitio principal (naranja de marca) */
+.md-banner {
+  background-color: #F37329;
+  color: #ffffff;
+}
+.md-banner__inner {
+  text-align: center;
+  font-size: 0.75rem;
+}
+.ingep-back,
+.ingep-back:hover {
+  color: #ffffff !important;   /* gana sobre .md-typeset a (arándano) */
+}
+.ingep-back {
+  font-weight: 600;
+  text-decoration: none;
+}
+.ingep-back:hover {
+  text-decoration: underline;
+}
+.ingep-back strong {
+  font-weight: 800;
+}

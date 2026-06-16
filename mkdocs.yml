@@ -6,6 +6,7 @@ copyright: © 2026 Ing. Marco Sumari · IngePresupuestos
 
 theme:
   name: material
+  custom_dir: overrides
   language: es
   logo: assets/logo.png
   favicon: assets/favicon.ico
