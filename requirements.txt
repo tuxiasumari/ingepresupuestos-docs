@@ -1,1 +1,4 @@
-mkdocs-material
+# Versión FIJADA: builds reproducibles en Cloudflare Pages.
+# Sin pin, Cloudflare instalaba la última de mkdocs-material y el build se
+# rompía (el deploy quedó atascado en jun-2026). 9.7.6 es la verificada local.
+mkdocs-material==9.7.6
